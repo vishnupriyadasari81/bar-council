@@ -1,0 +1,44 @@
+.bg-container{
+    background-color: aliceblue;
+    height:300vh;
+    width:150vw;
+    display:flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+    color:#181818;
+    font-family: "sans-serif";
+}
+
+.card-container{
+    background-color:#ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 7px #bcbccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height:14vh;
+    width:100vw;
+    margin-top: 10px;
+}
+
+.button{
+    background-color: #bcbccc;
+    color: black;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    padding: 6px;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+    height:50px;
+    width:150px;
+}
+
+button:hover{
+    background-color: rgb(168, 162, 162);
+}

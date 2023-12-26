@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link ref="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      <form>
+        <input
+          type="email"
+          name="email"
+          class="box"
+          placeholder="Enter Email"
+        />
+        <input
+          type="password"
+          name="password"
+          class="box"
+          placeholder="Password"
+        />
+        <button class="button">Log in</button>
+      </form>
+    </div>
+    <p class="para-2">
+      Not have an account? <a href="signup.html">Sign Up here</a>
+    </p>
+
+    <style>
+      .box {
+        font-size: 16px;
+      }
+      .button:hover {
+        background-color: rgb(0, 0, 0);
+      }
+      .login-box {
+        color: white;
+      }
+      body {
+        background-color: white;
+        font-family: "Roboto", sans-serif;
+        background: url("backimage.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+      .signup-box {
+        width: 360px;
+        height: 620px;
+        margin: auto;
+        background-color: white;
+        border-radius: 9px;
+        padding: 12px;
+        margin: 10px;
+      }
+      h1 {
+        text-align: center;
+        padding: 15px;
+      }
+      form {
+        width: 300px;
+        margin-left: 20px;
+      }
+      form label {
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+      }
+      form input {
+        width: 270px;
+        padding: 15px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 20px;
+        outline: none;
+        margin: 20px;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      .button {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(78, 78, 78);
+        color: white;
+        font-size: 18px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 19px;
+        cursor: pointer;
+      }
+      .para-2 {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        margin-top: -70px;
+      }
+      .para-2 a {
+        color: #49c1a2;
+      }
+      .login-box {
+        width: 400px;
+        height: 500px;
+        margin: auto;
+        background-color: rgb(238, 157, 157);
+        border-radius: 10px;
+        border-color: black;
+        background: transparent;
+        border: 4px solid black;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </body>
+</html>
